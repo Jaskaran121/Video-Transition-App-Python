@@ -370,6 +370,6 @@ class mainwindow(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = mainwindow()
-    window.setWindowTitle('Assignment1 SOEN6761')
+    window.setWindowTitle('Video Transition')
     window.show()
     sys.exit(app.exec_())
