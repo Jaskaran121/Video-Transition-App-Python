@@ -12,6 +12,7 @@ describe('billing', ()=>{
             // })
             // expect(billing.namespace).toEqual('billing')
             
+            //Just checks if it is a call to queryBilling without actually calling the queryBilling
             const action = () => { }
             const gen = billing.effects.query(action,{call,put})
             const returnedValue = {"done": false,"value":call(queryBilling)}
